@@ -1,0 +1,132 @@
+body{
+  margin: 0;
+  padding: 0;
+  position: cover;
+  
+}
+div{
+  margin: 0;
+  padding: 0;
+  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;  
+ 
+}
+
+li {
+  float: right;
+ 
+}
+li.left{
+	float: left;
+  
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 9px 10px;
+  text-decoration: none;
+  height: 20px;
+ 
+}
+a:hover{
+  text-decoration: underline;
+ 
+/*color: black;*/
+}
+div nav ul li a button.navButton{
+  background: blue;
+  background-color: blue;
+  color: white;
+  
+}
+
+form{
+	margin: auto;
+	width:50% ;
+	padding: 124px;
+  padding-bottom: 230px;
+ 
+}
+img.googleImage{
+	display: block;
+  margin: auto;
+  width: 40%;
+	margin-bottom: 15px;
+ 
+    }
+
+
+input{
+	display: block;
+  margin: auto ;
+  width: 80%;
+  border-radius: 1.5em;
+  height: 40px;
+ 
+}
+/* 
+CSS STYLE GOT IDEA FROM:
+https://coder-coder.com/how-to-center-button-with-html-css/
+*/
+.flex-parent{
+  display: flex;
+}
+.jc-center{
+  justify-content: center;
+}
+button.tocenter{
+  margin-right: 20px;
+}
+button a{
+  text-decoration: none;
+  
+}
+button{
+  border-style: solid;
+  color: gray;
+  text-decoration-line: gray;
+  height: 2em;
+  border-radius: 0.3em;
+} 
+a{
+  color: black;
+}
+/*
+STYLE GOOGLE
+*/
+
+ul li.insearchBar{
+  position: relative;
+  display: block;
+  width: 100px;
+
+}
+img.svg{
+  position: absolute;
+  left: 31%;
+  bottom: 51%;
+  height: 1.7em;
+  clear: left;
+  
+
+
+}
+button.searchButton{
+  position: absolute;
+  right: 31%;
+  bottom: 51%;
+  height: 2.1em;
+  width: 2.5em;
+  border: none;
+  color: none;
+  background: none;
+  clear: right;
+} 
